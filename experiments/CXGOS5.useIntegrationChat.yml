@@ -3,4 +3,10 @@
 type: experiment
 name: use integration chat
 flag: CXGOS5.useIntegrationChat
+conditions:
+  - group:
+      operator: and
+      name: CMX Go Integration Chat Roles
+  - group:
+      name: MX Customers
 value: false
