@@ -3,4 +3,13 @@
 type: experiment
 name: use marketing banner
 flag: CXGOS5.useMarketingBanner
+conditions:
+  - group:
+      name:
+        - MX Customers
+        - US Customers
+        - IL Customers
+        - GB Customers
+        - SCAC Customers
+        - ES Customers
 value: false
