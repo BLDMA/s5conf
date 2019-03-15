@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5c8c2f06f99d28655b630ff3
+type: experiment
+name: use integration chat
+flag: CXGOS5.useIntegrationChat
+value: false
