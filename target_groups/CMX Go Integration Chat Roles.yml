@@ -1,0 +1,9 @@
+type: target-group
+name: CMX Go Integration Chat Roles
+description: |
+  CEMEX Go roles to use Teleperformance Chat
+conditions:
+  - operator: in-array
+    property: role
+    operand:
+      - CMX_INTEGRATION_CHAT
