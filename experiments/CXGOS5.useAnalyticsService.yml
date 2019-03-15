@@ -3,4 +3,11 @@
 type: experiment
 name: use analytics service
 flag: CXGOS5.useAnalyticsService
+conditions:
+  - group:
+      name:
+        - US Customers
+        - GB Customers
+        - MX Customers
+        - SCAC Customers
 value: false
