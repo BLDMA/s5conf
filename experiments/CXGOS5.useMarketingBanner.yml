@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5c8c2e99f99d28655b630fbb
+type: experiment
+name: use marketing banner
+flag: CXGOS5.useMarketingBanner
+value: false
