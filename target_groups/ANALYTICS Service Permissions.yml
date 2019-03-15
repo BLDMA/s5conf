@@ -1,0 +1,12 @@
+type: target-group
+name: ANALYTICS Service Permissions
+description: >-
+  To enable analytics service, user has to have access to Invoice/Payments or
+  Track or Orders
+conditions:
+  - operator: in-array
+    property: application
+    operand:
+      - INVOICE_PAYMENTS
+      - OrderProductCat_App
+      - Foreman_App
