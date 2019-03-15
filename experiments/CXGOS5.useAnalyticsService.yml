@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5c8c2e7454e894658fe9122f
+type: experiment
+name: use analytics service
+flag: CXGOS5.useAnalyticsService
+value: false
