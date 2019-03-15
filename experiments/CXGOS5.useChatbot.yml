@@ -1,0 +1,6 @@
+# This file was edited by rollout.io
+# URL: https://app.rollout.io/ex/5c8c2ec1f99d28655b630fd6
+type: experiment
+name: use chatbot
+flag: CXGOS5.useChatbot
+value: false
