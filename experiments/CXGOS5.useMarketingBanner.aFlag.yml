@@ -2,5 +2,6 @@
 # URL: https://app.rollout.io/ex/5c8c195e54e894658fe90d8e
 type: experiment
 name: a flag
+enabled: false
 flag: CXGOS5.useMarketingBanner.aFlag
 value: false
