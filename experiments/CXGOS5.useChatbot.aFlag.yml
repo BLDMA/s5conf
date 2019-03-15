@@ -3,4 +3,7 @@
 type: experiment
 name: a flag
 flag: CXGOS5.useChatbot.aFlag
+conditions:
+  - group:
+      name: US Customers
 value: false
