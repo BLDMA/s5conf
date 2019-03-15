@@ -1,0 +1,15 @@
+type: target-group
+name: SCAC Customers
+description: South Central and Caribbean CEMEX Go Customers
+conditions:
+  - operator: in-array
+    property: country
+    operand:
+      - CO
+      - PANI
+      - CR
+      - SV
+      - GT
+      - DO
+      - PR
+      - PE
