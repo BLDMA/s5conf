@@ -1,0 +1,8 @@
+type: target-group
+name: ES Customers
+description: ES Customers
+conditions:
+  - operator: in-array
+    property: country
+    operand:
+      - ES
